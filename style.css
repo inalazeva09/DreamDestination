@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:rgb(189, 208, 212) ;
+  
+    color:rgb(35, 78, 94) ;
+    
+    font-family:'Times New Roman';
+}
