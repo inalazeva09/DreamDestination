@@ -8,5 +8,11 @@ body {
   
     color:rgb(35, 78, 94) ;
     
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+a:hover {
+    color: #3d7291; 
+    text-decoration: underline;
 }
