@@ -4,15 +4,20 @@ html {
 }
 
 body {
-    background-color:rgb(189, 208, 212) ;
+    background-color:#bdd0d4 ;
   
     color:rgb(35, 78, 94) ;
     
-    font-family: 'Times New Roman';
+    font-family:'Times New Roman';
     text-align: center;
 }
 
-a:hover {
-    color: #3d7291; 
-    text-decoration: underline;
+a{
+    color:antiquewhite
+    text-decoration:none
+}
+
+a:hover{
+    color: 230, 220, 195 
+    text-decoration:underline
 }
