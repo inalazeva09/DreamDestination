@@ -7,10 +7,6 @@ body {
     font-family:'Arial, sans-serif';
     background-color:#bdd0d4 ;
     color:rgb(35, 78, 94) ;
-    
-    /* centers content*/
-    display: flex; 
-    justify-content: center; 
     align-items: center; 
 }
 
@@ -18,7 +14,10 @@ body {
     width: 80%; 
     max-width: 500px; /* image size */
     border-radius: 8px; /* rounded egdes */
-    margin: 15 px; 
+    margin: 60 px; 
+     /* centers content*/
+     display: flex; 
+     align-items: center; 
 }
 
 p {
@@ -95,13 +94,13 @@ p {
     } 
     
     .official-link { 
-        color: #ff4500; /* Orange */ 
+        color: #3d76c0; 
         font-weight: bold; 
         text-decoration: none; 
     } 
     
     .official-link:hover { 
-        color: #ff6347; /* Lighter Orange */ 
+        color: #323e85; 
         text-decoration: underline; 
     } 
     
@@ -114,5 +113,3 @@ p {
         /* Light Blue */ 
         text-decoration: underline;
     }
-
-
