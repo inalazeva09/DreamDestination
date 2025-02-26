@@ -71,3 +71,48 @@ p {
 .official-link:hover {
     color: #3c6aba; 
     text-decoration: underline; 
+}
+    tab-button { 
+        display: inline-block; 
+        background-color: #4682b4;
+        color: white; padding: 10px 15px;
+        margin: 5px; border-radius: 5px; 
+        font-size: 16px; 
+        text-decoration: none; 
+        transition: 0.3s; 
+    } 
+    .tab-button:hover { 
+        background-color: #5a9bd4; 
+    } 
+    
+    .content {
+        display: none; 
+        margin-top: 20px; 
+    } 
+    
+    .content:target { 
+        display: block;
+    } 
+    
+    .official-link { 
+        color: #ff4500; /* Orange */ 
+        font-weight: bold; 
+        text-decoration: none; 
+    } 
+    
+    .official-link:hover { 
+        color: #ff6347; /* Lighter Orange */ 
+        text-decoration: underline; 
+    } 
+    
+    .extra-link { 
+        color: #4682b4; /* Steel Blue */ 
+        text-decoration: none; 
+    } 
+    .extra-link:hover { 
+        color: #87ceeb; 
+        /* Light Blue */ 
+        text-decoration: underline;
+    }
+
+
