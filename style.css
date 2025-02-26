@@ -61,3 +61,13 @@ p {
 .external-link a:hover {
     text-decoration: underline; 
 }
+
+.official-link {
+    color: #5681cc; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.official-link:hover {
+    color: #3c6aba; 
+    text-decoration: underline; 
