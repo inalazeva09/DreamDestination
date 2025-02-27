@@ -3,35 +3,36 @@ html {
     width: 100%;
 }
 
+/* home screen paragraph */
 body {
     font-family:'Arial, sans-serif';
     background-color:#bdd0d4 ;
     color:rgb(35, 78, 94) ;
     align-items: center; 
 }
-
+ 
+/* home screen image */
 .main-image { 
-    width: 80%; 
-    max-width: 500px; /* image size */
-    border-radius: 8px; /* rounded egdes */
-    margin: 60 px; 
-     /* centers content*/
-     display: flex; 
-     align-items: center; 
+    display: block;  /* ensures image is almost like a block element */ 
+    margin: 0 auto; 
+    width: 80%;
+    max-width: 500px; 
+    border-radius: 8px; 
 }
 
 p {
-    font-size: 18px; 
-    line-height: 1.6; 
-    text-align: justifty; /* text align even */
-    padding: 20px; 
-    
+    text-align: center; 
+    margin-bottom: 5px; 
+    line-height: 1.4; 
+
+}
+
 .top-right-button {
     position: absolute; 
     top: 20px; /* distance from top */
     right: 20px /* distance from right */
-    background-color: #008CBA; 
-    color: white; 
+    background-color: #4682B4; 
+    color: black; 
     padding: 10px 15px; /* space between */
     font-size: 16px; 
     cursor: pointer; 
@@ -39,15 +40,16 @@ p {
 }
     
 .top-right-button: hover {
-    background-color: #005f73; 
+    background-color: #4682B4; 
 }
 
+
+/* gallery images (how they display on screen) */
 .gallery-image {
     display: block; 
-    width: 45%; 
-    max-width: 400px; 
-    border-radius: 8px; 
-    margin: 10px auto;  /* centers image */
+    width: 300px; 
+    height: 200px; 
+    margin: 10px ;  /* centers image */
 
 }
 
@@ -61,37 +63,49 @@ p {
     text-decoration: underline; 
 }
 
+/* offical bora bora page */
+    
 .official-link {
+    text-align:center; 
+    margin-top: 10px; 
+}
+
+.official-link a {
+    font-size: 18px; 
     color: #5681cc; 
     font-weight: bold; 
     text-decoration: none; 
 }
-
-.official-link:hover {
+.official-link a:hover {
+    font-size: 18px; 
     color: #3c6aba; 
     text-decoration: underline; 
+    font-weight: bold;
 }
-    tab-button { 
-        display: inline-block; 
-        background-color: #4682b4;
-        color: white; padding: 10px 15px;
-        margin: 5px; border-radius: 5px; 
-        font-size: 16px; 
-        text-decoration: none; 
-        transition: 0.3s; 
-    } 
-    .tab-button:hover { 
-        background-color: #5a9bd4; 
-    } 
-    
-    .content {
-        display: none; 
-        margin-top: 20px; 
-    } 
-    
-    .content:target { 
-        display: block;
-    } 
+
+/* selection of images button */
+.image-button { 
+    display: inline-block; 
+    background-color: #4682B4;
+    color: white; 
+    font-size: 16px; 
+    padding: 12px 18px; 
+    margin: 10px; 
+    border-radius:8px; 
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+/* seperately shows pictures */
+content {
+    display: none; 
+    margin-top: 20px; 
+}
+
+.content:target {
+    display: block; 
+}
     
     .official-link { 
         color: #3d76c0; 
@@ -104,12 +118,3 @@ p {
         text-decoration: underline; 
     } 
     
-    .extra-link { 
-        color: #4682b4; /* Steel Blue */ 
-        text-decoration: none; 
-    } 
-    .extra-link:hover { 
-        color: #87ceeb; 
-        /* Light Blue */ 
-        text-decoration: underline;
-    }
